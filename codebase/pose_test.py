@@ -6,6 +6,18 @@ import moveit_msgs.msg
 import geometry_msgs.msg as msg
 import sys
 import copy
+from robotiq_2f_gripper_control.msg import _Robotiq2FGripper_robot_output  as outputMsg
+
+pub = rospy.Publisher('Robotiq2FGripperRobotOutput', outputMsg.Robotiq2FGripper_robot_output, queue_size=10)
+
+# Initialising the command msg to be sent to the gripper
+command = outputMsg.Robotiq2FGripper_robot_output()
+command.rACT = 1
+command.rGTO = 1
+command.rATR = 0
+command.rPR = 150  # only value you will change to open/close the gripper
+command.rSP = 255
+command.rFR = 150
 
 moveit_commander.roscpp_initialize(sys.argv)
 rospy.init_node('move_group_python_interface_tutorial',
@@ -48,8 +60,7 @@ start_pose = group.get_current_pose().pose
 rospy.loginfo(start_pose)
 # waypoints.append(copy.deepcopy(start_pose))
 waypoints.append(copy.deepcopy(pick_approach))
-waypoints.append(copy.deepcopy(start_pose))
-
+waypoints.append(copy.deepcopy(brick3_pick))
 
 rospy.loginfo("Generating trajectory")
 
@@ -61,3 +72,15 @@ rospy.loginfo("Generating trajectory")
 
 rospy.loginfo("Executing")
 group.execute(plan, wait=True)
+group.clear_pose_targets()
+rospy.sleep(5)
+
+pub.publish(command)
+rospy.loginfo("Closing the gripper")
+rospy.sleep(2)
+
+# Opening the gripper
+command.rPR = 0
+pub.publish(command) 
+rospy.loginfo("Opening the gripper")
+rospy.sleep(2)
