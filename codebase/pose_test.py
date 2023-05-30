@@ -42,6 +42,15 @@ brick3_pick.orientation.y = 0.731170695292
 brick3_pick.orientation.z = -0.000868861873143
 brick3_pick.orientation.w = 0.0299901387745
 
+brick1_place = msg.Pose()
+brick1_place.position.x = -0.687194435973
+brick1_place.position.y = -0.0948629863735
+brick1_place.position.z = 0.268686546986
+brick1_place.orientation.x = 0.912118357436
+brick1_place.orientation.y = 0.408821495728
+brick1_place.orientation.z = -0.0123161662003
+brick1_place.orientation.w = 0.027448109392
+
 waypoints = []
 
 start_pose = group.get_current_pose().pose
