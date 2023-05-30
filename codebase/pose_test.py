@@ -45,6 +45,14 @@ pick_approach.orientation.y = 0.731102429459
 pick_approach.orientation.z = -0.000695229454232
 pick_approach.orientation.w = 0.0300727728485
 
+place_approach.position.x = -0.687201870967
+place_approach.position.y = -0.0948249789244
+place_approach.position.z = 0.427884169762
+place_approach.orientation.x = 0.912119132342
+place_approach.orientation.y = 0.408827942389
+place_approach.orientation.z = -0.0123410188905
+place_approach.orientation.w = 0.0273148529336
+
 brick3_pick = msg.Pose()
 brick3_pick.position.x = -0.411759555573
 brick3_pick.position.y = -0.558342844345
