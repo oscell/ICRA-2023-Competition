@@ -1,15 +1,11 @@
-# ICRA2023 - Competition
-
-
-
-
-# ICRA 2023 Competition Codespace
+# ICRA 2023 Competition
 
 This repository contains the code and resources used during the the Manufacturing Robotics Challenge at [ICRA 2023](https://www.icra2023.org/).
 
 ## Overview
 
-The Manufacturing Robotics Challenge @ ICRA focuses on the use of collaborative robots to construct the tallest Jenga tower. Participants are provided with a collaborative robot, a gripper, and a 3D camera. The primary objective is to utilize these tools to build the tallest possible Jenga tower.
+
+The [Manufacturing Robotics Challenge @ ICRA](https://github.com/gianmarco96/MRC-at-ICRA) focuses on the use of collaborative robots to construct the tallest Jenga tower. Participants are provided with a collaborative robot, a gripper, and a 3D camera. The primary objective is to utilize these tools to build the tallest possible Jenga tower.
 
 ### Rules and Assessment
 
@@ -28,7 +24,3 @@ The Manufacturing Robotics Challenge @ ICRA focuses on the use of collaborative 
 ## Images
 
 (You can insert the images you want to display here using the following format: `![Image Description](URL_to_the_image)`)
-
-## Additional Resources
-
-For those interested in the technical aspects and setup instructions, you can refer to the [official repository](https://github.com/gianmarco96/MRC-at-ICRA) for the Manufacturing Robotics Challenge @ ICRA.
