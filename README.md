@@ -21,6 +21,4 @@ The [Manufacturing Robotics Challenge @ ICRA](https://github.com/gianmarco96/MRC
 
 🥈 **2nd Place**: This codespace secured the second position in the competition.
 
-## Images
-
-(You can insert the images you want to display here using the following format: `![Image Description](URL_to_the_image)`)
+![Image](assets/vid.mp4)
