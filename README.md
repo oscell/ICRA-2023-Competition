@@ -20,6 +20,6 @@ The [Manufacturing Robotics Challenge @ ICRA](https://github.com/gianmarco96/MRC
 
 ## Achievements
 
-🥈 **2nd Place**: This codespace secured the second position in the competition.
+🥈 **2nd Place**: Our team, seen below, manged to secure second palce!
 
 ![Image](assets/Team_Photo.jpg)
