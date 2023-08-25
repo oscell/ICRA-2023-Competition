@@ -20,6 +20,12 @@ The [Manufacturing Robotics Challenge @ ICRA](https://github.com/gianmarco96/MRC
 
 ## Achievements
 
-🥈 **2nd Place**: Our team, seen below, manged to secure second palce!
 
-<p align = centre><img src="assets/Team_Photo.jpg" width =300></p>
+
+<div align = centre>
+
+ 🥈 **2nd Place**: Our team, seen below, manged to secure second palce! 🥈
+
+<img align = centre src="assets/Team_Photo.jpg" width =400>
+
+</div>
