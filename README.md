@@ -6,7 +6,7 @@ This repository contains the code and resources used during the the Manufacturin
 
 The [Manufacturing Robotics Challenge @ ICRA](https://github.com/gianmarco96/MRC-at-ICRA) focuses on the use of collaborative robots to construct the tallest Jenga tower. Participants are provided with a collaborative robot, a gripper, and a 3D camera. The primary objective is to utilize these tools to build the tallest possible Jenga tower.
 
-:movie_camera: Watch the tower being build [here](https://www.youtube.com/watch?v=4TqlQTydhJ0)!
+:movie_camera: Watch the tower being built [here](https://www.youtube.com/watch?v=4TqlQTydhJ0)! :movie_camera:
 
 ### Rules and Assessment
 
