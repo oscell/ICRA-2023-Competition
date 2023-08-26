@@ -29,6 +29,3 @@ The [Manufacturing Robotics Challenge @ ICRA](https://github.com/gianmarco96/MRC
   - Bricks can also be used to create a sculpture. Each tower will receive a sculpture score ranging from 1 to 3. The tower's final height is multiplied by this sculpture score. Scores are determined based on the artistic value and structural integrity of the sculpture.
 - Fair play and cooperative conduct are essential throughout the competition. For a detailed breakdown of the rules and expectations, please refer to the [official rules and assessment](https://github.com/gianmarco96/MRC-at-ICRA).
 
-## Achievements
-
-
