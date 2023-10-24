@@ -2,7 +2,7 @@
 
 This repository contains the code and resources used during the the Manufacturing Robotics Challenge at [ICRA 2023](https://www.icra2023.org/).
 
-<img src="https://github.com/oscell/ICRA-2023-Competition/assets/82882938/547bb5c6-f409-46fe-a321-9442428f6270" width="200px">
+<img src="https://github.com/oscell/ICRA-2023-Competition/assets/82882938/547bb5c6-f409-46fe-a321-9442428f6270" align= center width="200px">
 
 
 
